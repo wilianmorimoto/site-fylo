@@ -1,0 +1,19 @@
+.getstarted-btn {
+  background: var(--gradient);
+  border: none;
+  outline: none;
+  padding: 1rem 5rem;
+  border-radius: 100px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: fit-content;
+  margin: 0 auto;
+  opacity: 1;
+  cursor: pointer;
+  transition: .3s;
+  font-size: 1rem;
+
+  &:hover {
+    opacity: .8;
+  }
+}

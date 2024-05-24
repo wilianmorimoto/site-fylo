@@ -1,0 +1,53 @@
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.quotes {
+  position: absolute;
+  top: 120px;
+  left: 45px;
+  width: 40px;
+  z-index: 1;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 1.5rem;
+  background: var(--bg-secondary);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+
+  >img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    .name {
+      opacity: 1;
+      font-weight: 800;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #testimonials {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}

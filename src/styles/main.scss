@@ -1,0 +1,68 @@
+@import "variables.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+	--bg: #{$bg-primary};
+	--bg-secondary: #{$bg-secondary};
+	--text: #{$text};
+	--gradient: #{$gradient-blue};
+	--light-blue: #{$light-blue};
+	--black: #{$black};
+	--error: #{$error};
+	--footer: #{$footer};
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+	color: var(--text);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-size: 24px;
+	font-family: "Raleway", sans-serif;
+}
+
+p,
+a,
+span,
+button {
+	font-size: 14px;
+	opacity: 0.8;
+	font-weight: 300;
+}
+
+p {
+	line-height: 24px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+section {
+	padding: 140px 2rem 50px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
